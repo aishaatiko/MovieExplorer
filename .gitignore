@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode build files
+build/
+DerivedData/
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Private API credentials
+Secrets.xcconfig
