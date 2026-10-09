@@ -14,4 +14,4 @@ xcuserdata/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 
 # Private API credentials
-Secrets.xcconfig
+Secrets.debug.xcconfig

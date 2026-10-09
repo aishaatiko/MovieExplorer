@@ -8,11 +8,25 @@
 
 /* Begin PBXFileReference section */
 		496150CF307397E400A4C6CC /* MovieExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C97FD13078D2E6001C5A73 /* Secrets.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		49C980E53078EDCE001C5A73 /* Exceptions for "MovieExplorer" folder in "MovieExplorer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 496150CE307397E400A4C6CC /* MovieExplorer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		496150D1307397E400A4C6CC /* MovieExplorer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				49C980E53078EDCE001C5A73 /* Exceptions for "MovieExplorer" folder in "MovieExplorer" target */,
+			);
 			path = MovieExplorer;
 			sourceTree = "<group>";
 		};
@@ -34,6 +48,7 @@
 			children = (
 				496150D1307397E400A4C6CC /* MovieExplorer */,
 				496150D0307397E400A4C6CC /* Products */,
+				49C97FD13078D2E6001C5A73 /* Secrets.debug.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +142,7 @@
 /* Begin XCBuildConfiguration section */
 		496150D8307397E500A4C6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C97FD13078D2E6001C5A73 /* Secrets.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -190,6 +206,7 @@
 		};
 		496150D9307397E500A4C6CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C97FD13078D2E6001C5A73 /* Secrets.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -246,6 +263,7 @@
 		};
 		496150DB307397E500A4C6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C97FD13078D2E6001C5A73 /* Secrets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -253,6 +271,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,6 +298,7 @@
 		};
 		496150DC307397E500A4C6CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C97FD13078D2E6001C5A73 /* Secrets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +306,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

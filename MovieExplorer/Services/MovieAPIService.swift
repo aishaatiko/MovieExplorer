@@ -9,7 +9,7 @@ import Foundation
 
 struct MovieAPIService {
     private let baseURL = "https://api.themoviedb.org/3"
-    private let apiKey = "API_KEY"
+    private let apiKey = Bundle.main.infoDictionary?["TMDB_API_KEY"] as? String ?? ""
     
     func fetchMovies(page: Int = 1) async throws -> MovieResponse {
         let urlString = "\(baseURL)/movie/popular?api_key=\(apiKey)&page=\(page)"
